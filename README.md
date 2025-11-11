@@ -20,5 +20,5 @@ This project helps manage student data efficiently.
 
 ## 🧑‍💻 Author
 **Nguyen Thanh Duy**  
-📧 duynguyen2k1.dev@gmail.com  
+📧 duynguyen.codes@gmail.com 
 🌐 [github.com/dev-duynguyen](https://github.com/dev-duynguyen)
