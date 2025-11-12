@@ -37,7 +37,7 @@ Watch how the client connects to the server and MySQL database.
 ## ⚙️ Run Locally
 
 ### 🧩 Requirements
-- **JDK 17+**  
+- **JDK 18+**  
 - **XAMPP** (MySQL + Apache)  
 - **Database file:** `langla.sql`  
 
