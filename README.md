@@ -1,59 +1,105 @@
-# 🎓 Student Management System (Java)
+# 🎮 Lang Lá Game (Java + MySQL)
 
-A simple console-based student management program built with **Java** and **MySQL**.  
-This project helps manage student data efficiently.
+An improved MMORPG fan project inspired by the Naruto world, built with **Java** and **MySQL**.  
+Originally based on an open-source Java version, this project has been **heavily customized and expanded** with new gameplay systems, events, and database integration.
+
+---
+
+## 🌿 Overview
+This project represents a complete **client–server game** written in Java, connected to a **MySQL database (via XAMPP)** for player accounts, levels, and item storage.
+
+The system supports:
+- Custom character skins (cải trang)
+- Special events (sự kiện)
+- Item shop system (shop vật phẩm)
+- Real-time data saving via MySQL
 
 ---
 
 ## 💡 Features
-- Add, edit, delete, and search students  
-- Calculate GPA and sort by score  
-- Connect with MySQL using JDBC  
+
+### 🕹️ Gameplay
+- 🧍 Character creation and login system  
+- ⚔️ Battle and skill effects  
+- 🏕️ Map & teleport system  
+- 🧥 **Cải trang** feature (custom skin transformation)
+- 🎉 **Sự kiện** system (temporary events like Halloween, New Year)
+- 🛒 **Shop vật phẩm** (item purchase using in-game or recharge currency)
+
+### 🗄️ Server & Database
+- Java server handles player sessions and game logic  
+- MySQL stores account info, inventory, levels, and currencies  
+- XAMPP provides local host management (Apache + MySQL)
+
+### 🧩 Client
+- Built with **LibGDX**  
+- Connects via socket (port 2907)  
+- Supports desktop launcher & Android APK  
 
 ---
 
 ## 🧰 Technologies
-- **Java** (OOP, Exception Handling)  
-- **MySQL** (CRUD, JDBC)  
-- **NetBeans / VS Code**  
-
----
-
-## 📦 Download Project
-Because the project is large (includes game assets, server, and client),  
-please download the full version here:  
-
-➡ [**Download LangLa-Game.zip (Google Drive)**](https://drive.google.com/your-link)  
-
----
-
-## 🎥 Demo Video
-Watch how the client connects to the server and MySQL database.  
-
-▶️ [**Watch Demo on Google Drive / YouTube**](https://drive.google.com/your-video-link)  
+| Component | Description |
+|------------|-------------|
+| **Language** | Java 17+ |
+| **Database** | MySQL (via JDBC) |
+| **Framework** | LibGDX |
+| **Server** | Custom socket-based server |
+| **Tools** | NetBeans / VS Code / XAMPP |
 
 ---
 
 ## ⚙️ Run Locally
 
 ### 🧩 Requirements
-- **JDK 18+**  
-- **XAMPP** (MySQL + Apache)  
-- **Database file:** `langla.sql`  
+- JDK 18+  
+- XAMPP (Apache + MySQL)  
+- Database file: `langla.sql`
 
 ---
 
 ### 🪜 Steps
 1. Import `langla.sql` into **phpMyAdmin**.  
-2. Start **MySQL** and **Apache** on XAMPP.  
+2. Start **MySQL** and **Apache** in XAMPP.  
 3. Run the **server**:
    ```bash
    java -cp "target\classes;lib\*" com.sg188.server.Main
-4. Run `LangLaClient.jar` (client)
-5. Login with: thanhduy01
-               sdt0344
+Run the client:
 
-## 🧑‍💻 Author
-**Nguyen Thanh Duy**  
-📧 duynguyen.codes@gmail.com 
-🌐 [github.com/dev-duynguyen](https://github.com/dev-duynguyen)
+bash
+Sao chép mã
+java -jar LangLaClient.jar
+Login with:
+
+makefile
+Sao chép mã
+Username: thanhduy01
+Password: sdt0344
+📦 Download Project
+Because this project includes full game assets (client, server, and database),
+please download it from Google Drive:
+
+➡ Download LangLa-Game.zip (Google Drive)
+
+🎥 Demo Video
+Watch how the client connects to the server and interacts with MySQL database:
+
+▶️ Watch Demo on Google Drive / YouTube
+
+🧠 Key Improvements from Original Source
+Rebuilt UI and client connection logic
+
+Added Cải trang system (dynamic outfit switching)
+
+Added Event Manager (holiday and special event system)
+
+Added Shop System synced with database
+
+Optimized saving/loading through MySQL
+
+Integrated AutoPro and SettingsTab for smoother automation
+
+🧑‍💻 Author
+Nguyen Thanh Duy
+📧 duynguyen.codes@gmail.com
+🌐 github.com/dev-duynguyen
