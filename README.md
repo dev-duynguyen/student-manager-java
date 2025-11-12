@@ -79,12 +79,9 @@ Password: sdt0344
 Because this project includes full game assets (client, server, and database),
 please download it from Google Drive:
 
-➡ Download LangLa-Game.zip (Google Drive)
+➡ Download LangLa-Game.zip 
+https://drive.google.com/drive/folders/1XTIkPV_p366jNs1vytJnPH6NMO9nFFfc?usp=drive_link
 
-🎥 Demo Video
-Watch how the client connects to the server and interacts with MySQL database:
-
-▶️ Watch Demo on Google Drive / YouTube
 
 🧠 Key Improvements from Original Source
 Rebuilt UI and client connection logic
